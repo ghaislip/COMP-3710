@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                         else
                             Toast.makeText(MainActivity.this, "Note Not Created", Toast.LENGTH_LONG).show();
                         getNotes();
+                        ClearText();
                     }
                 }
         );
@@ -53,5 +54,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         MainActivity.this.editPreviousNotes.setText(buffer);
+    }
+
+    public void ClearText(){
+        MainActivity.this.editNote.setText("");
     }
 }
