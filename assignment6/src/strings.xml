@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment5</string>
+    <string name="filterDate"> &lt;Date&lt; </string>
+    <string name="filterPrice"> &lt;$$$&lt; </string>
+</resources>
